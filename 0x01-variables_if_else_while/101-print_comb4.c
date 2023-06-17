@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-int x;  
-for (x = '0';x != '8';x++)
+int x; 
+for (x = '0'; x != '8'; x++)
 {
 int y;
-for (y = x + 1;y != '9';y++)
+for (y = x + 1; y != '9'; y++)
 {
 int z;
-for (z = y + 1;z != ':';z++)
+for (z = y + 1; z != ':'; z++)
 {
 putchar(x);
 putchar(y);
